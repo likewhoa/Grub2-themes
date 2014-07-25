@@ -21,9 +21,9 @@ terminal-font: "Fixed Regular 13"
 
 + image {
 		    id = "__gentoologo__"
-		    left = 30%
+		    right = 80%
 		    width = 10%
-		    top = 2%
+		    top = -5%
 		    height = 12%
 		    file = "gentoo-logo.png"
 }
