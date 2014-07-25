@@ -1,7 +1,9 @@
-# GRUB2 gfxmenu Archxiom theme.
+# GRUB2 gfxmenu GenGrub theme based of
+# github.com/Generator/Grub2-themes/tree/master/Archxion.
 # Designed for 1024x768 resolution.
 # Forked from Axion by Legendary Bibo
 # Changed by American_Jesus
+# Revised by Fernando Reyes (likewhoa)
 
 # Global Property
 title-text: ""
@@ -15,15 +17,15 @@ desktop-color: "#000000"
 terminal-box: "menu_bkg_*.png"
 terminal-font: "Fixed Regular 13"
 
-# Show Archlinux logo
+# Show Gentoo logo
 
 + image {
-		    id = "__archlogo__"
+		    id = "__gentoologo__"
 		    left = 30%
 		    width = 10%
 		    top = 2%
 		    height = 12%
-		    file = "archlogo.png"
+		    file = "gentoo-logo.png"
 }
 
 # Show the boot menu
